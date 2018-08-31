@@ -20,3 +20,4 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return object
 }
 updateObjectWithKeyAndValue(recipes,"ob1","third")
+deleteFromObjectByKey(recipes,"ob1")
